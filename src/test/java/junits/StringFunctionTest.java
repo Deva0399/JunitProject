@@ -13,8 +13,7 @@ public class StringFunctionTest {
 		assertTrue(StringFunctions.isPlaindrome("oppo"));
 	}
 	
-	@Test
-	@DisplayName("Negative test")
+	@CustomAnnotation
 	public void test2() {
 		assertFalse(StringFunctions.isPlaindrome("abcd"));
 	}
